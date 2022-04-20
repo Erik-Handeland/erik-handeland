@@ -7,7 +7,7 @@
 	  <img align="center" src="https://github-readme-stats.vercel.app/api?username=erik-handeland&show_icons=true&hide=stars&count_private=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777" width="50%"/>
 	</a>
 	<a href="#">
-	  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erik-handeland&hide=html&layout=compact&hide_border=true&bg_color=00000000&text_color=777" width="40%"/>
+	  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erik-handeland&hide=html,css&layout=compact&hide_border=true&bg_color=00000000&text_color=777" width="40%"/>
 	</a>
 </p>
 
