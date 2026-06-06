@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erik Handeland</title>
+  <link rel="stylesheet" type="text/css" href="/old/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    if (
+      localStorage.getItem("color-mode") === "dark" ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches &&
+        !localStorage.getItem("color-mode"))
+    ) {
+      document.documentElement.setAttribute("color-mode", "dark");
+    }
+  </script>
+</head>
+
+<body>
+
+
+  <header>
+    <h1>Erik Handeland</h1>
+    <div class="bottom_right">
+      <button class="color-mode__btn light--hidden" aria-label="Toggle light mode">
+        <i class="fa fa-sun-o"></i>
+      </button>
+      <button class="color-mode__btn dark--hidden" aria-label="Toggle dark mode">
+        <i class="fa fa-moon-o"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav_main">
+    <nav>
+      <ul>
+        <li> <a href="/old/">About</a></li>
+        <li> <a href="https://github.com/Erik-Handeland">Project</a></li>
+        <li> <a href="https://skookum.photography">Photography</a></li>
+        <li> <a href="mailto:erik@handeland.tech">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+
+    <div class="nav_sub">
+      <nav>
+        <ul>
+          <li> <a href="/old/html/work.html">Work Experience</a></li>
+          <li> <a href="/old/html/education.html">Education</a></li>
+          <li> <a href="/old/html/activities.html">Extra Currucular</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="center">
+      <div class="inline-block">
+        <h2>About me</h2>
+        <br>
+        <img class="head" src="/old/images/headshot.jpg" alt="Erik Handeland" style="margin-bottom: 0.5em;">
+        <p>I'm a student at Western Washington University who is pursing my bachalors in
+          Computer Science.</p>
+      </div>
+    </div>
+    <script src="/old/js/main.js"></script>
+  </main>
+
+  <footer>
+    <a style="font-size: x-large; margin-right: .5em;" href="mailto:erik@handeland.tech" class="fa fa-envelope"></a>
+    <a style="font-size: x-large; margin-right: .5em;" href="https://www.linkedin.com/in/erik-handeland/"
+      class="fa fa-linkedin"></a>
+    <a style="font-size: x-large;" href="https://github.com/Erik-Handeland" class="fa fa-github"></a>
+    <br>
+    Copyright © 2020 Erik Handeland <br>
+    <script>
+      var date = document.lastModified;
+      document.write(date);
+    </script>
+  </footer>
+</body>
+</div>
+
+</html>
