@@ -1,6 +1,6 @@
 # Erik Handeland Website
 
-This folder contains the personal website for `www.handeland.dev`.
+This folder contains the personal website for `handeland.dev`.
 
 The root `README.md` is the GitHub profile README. The deployable website lives here, and the repository-root `wrangler.jsonc` configures Cloudflare Workers Static Assets.
 
